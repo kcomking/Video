@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20181201141515_Initial.cs" />
+    <Compile Remove="Migrations\20181201171107_Initial.cs" />
+    <Compile Remove="Migrations\20181201171331_Initial.cs" />
+    <Compile Remove="Migrations\20181201171834_Initial.cs" />
+    <Compile Remove="Migrations\20181201180739_Initial.cs" />
+    <Compile Remove="Migrations\20181201183352_Initial.cs" />
+    <Compile Remove="Migrations\20181202050847_Initial.cs" />
+    <Compile Remove="Migrations\20181202051452_Initial.cs" />
+    <Compile Remove="Migrations\20181202051620_Initial.cs" />
+    <Compile Remove="Migrations\20181202051853_Initial.cs" />
+    <Compile Remove="Migrations\20181202052335_Initial.cs" />
+    <Compile Remove="Migrations\20181202052514_Initial.cs" />
+    <Compile Remove="Migrations\20181202053238_Initial.cs" />
+    <Compile Remove="Migrations\20181202053303_Initial.cs" />
+    <Compile Remove="Migrations\20181202053444_Initial.cs" />
+    <Compile Remove="Migrations\20181202054151_Initial.cs" />
+    <Compile Remove="Migrations\20181202054529_Initial.cs" />
+    <Compile Remove="Migrations\20181202055935_Initial.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Video.Core\Video.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PropertyMapping\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Identity.Core">
+      <HintPath>..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.identity.core\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Identity.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
